@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIMATIKA - Himpunan Mahasiswa Matematika</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="website icon" type="image/png" href="assets/hima.png" /> 
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <a href="#home" class="logo">HIMATIKA</a>
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">Tentang Kami</a></li>
+                    <li><a href="#math-library" class="nav-link">Math Library</a></li>
+                    <li><a href="#meb" class="nav-link">MeB</a></li>
+                    <li><a href="#contact" class="nav-link">Kontak</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Home Section (Hero) -->
+        <section id="home" class="hero">
+            <div class="hero-content container">
+                <h1>Selamat Datang MathFellas</h1>
+                <p>Wadah Aspirasi dan Pengembangan Mahasiswa Pendidikan Matematika.</p>
+                <a href="#about" class="cta-button">Jelajahi</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>Tentang HIMATIKA</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Himpunan Mahasiswa Matematika (HIMATIKA) adalah organisasi kemahasiswaan di UIN Sunan Gunung Djati Bandung yang berfokus pada pengembangan potensi akademik dan non-akademik mahasiswa program studi Matematika.</p>
+                        <p><strong>Visi Kami:</strong> ESKALASI peran HIMATIKA UIN SGD Bandung sebagai organisasi mahasiswa yang erat, aspiratif, dan inovatif, guna menciptakan suasana kolaborasi yang berdampak berkalanjutan bagi seluruh civitas akademika Program Studi Pendidikan Matematika. </p>
+                        <p><strong>Misi Kami:</strong></p>
+                        <ul>
+                            <li>Membangun suasana internal HIMATIKA yang
+                                kondusif dan penuh rasa kekeluargaan, guna
+                                memperkuat sinergi seluruh elemen HIMATIKA
+                                dalam mencapai tujuan bersama.</li>
+                            <li>Optimalisasi peran HIMATIKA sebagai wadah
+                                aspirasi mahasiswa Program Studi Pendidikan
+                                Matematika melalui komunikasi yang efektif dan
+                                transparan.</li>
+                            <li>Mendorong inovasi dan kreativitas dalam setiap
+                                program kerja HIMATIKA. </li>
+                            <li>Menciptakan lingkungan kolaboratif yang inklusif guna mengembangkan potensi melalui berbagai
+                                kegiatan kemahasiswaan. </li>
+                        </ul>
+                    </div>
+                    <!-- Opsional: Tambahkan gambar ilustrasi atau foto kegiatan -->
+                    <!-- <div class="about-image">
+                        <img src="images/kegiatan.jpg" alt="Kegiatan HIMATIKA">
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Math Library Section -->
+        <section id="math-library" class="library-section">
+            <div class="container">
+                <h2>Math Library</h2>
+                <p class="library-intro">Temukan kumpulan materi perkuliahan, catatan, soal latihan, dan sumber belajar lainnya untuk mendukung studi Matematika Anda.</p>
+
+                <div class="file-list">
+                    <!-- Kategori: Kalkulus -->
+                    <div class="file-category">
+                        <h3>Kalkulus</h3>
+                        <div class="file-card">
+                            <h4>Kalkulus I</h4>
+                            <p>Catatan lengkap Bab 1 - Limit dan Kontinuitas.</p>
+                            <a href="files/kalkulus1/catatan-bab1.pdf" download class="download-btn">
+                                <i class="fas fa-download"></i> Unduh PDF
+                            </a>
+                        </div>
+                        <div class="file-card">
+                             <h4>Kalkulus II</h4>
+                             <p>Latihan Soal UAS 2021.</p>
+                             <a href="files/kalkulus1/latihan-soal-uas.pdf" download class="download-btn">
+                                 <i class="fas fa-download"></i> Unduh PDF
+                             </a>
+                        </div>
+                        <!-- Tambahkan file Kalkulus lainnya di sini -->
+                    </div>
+
+                    <!-- Kategori: Aljabar Linear -->
+                    <div class="file-category">
+                         <h3>Aljabar Linear</h3>
+                         <div class="file-card">
+                             <h4>Aljabar Linear Elementer</h4>
+                             <p>Slide presentasi - Elemen Vektor</p>
+                             <a href="files/aljabar-linear/elemen-vektor.pdf" download class="download-btn">
+                                 <i class="fas fa-download"></i> Unduh PDF
+                             </a>
+                         </div>
+                         <!-- Tambahkan file Aljabar Linear lainnya di sini -->
+                     </div>
+
+                     <!-- Tambahkan Kategori Lainnya (Struktur Aljabar, Analisis Real, dll.) -->
+
+                </div>
+            </div>
+        </section>
+        <section id="meb" class="blog-section">
+            <div class="container">
+                <h2>MeB</h2>
+                <div class="article-list" id="article-list-container">
+                    <div class="article-card">
+                        <a href="https://medium.com/g-o-d-good-open-divine/happiness-a-simple-mathematical-formula-f2073f36da65" target="_blank">
+                            <h4>Happiness — A Simple Mathematical Formula</h4>
+                            <div class="article-meta">10/01/2025</div>
+                            <p>
+                                The researchers found that the proportion between positive and negative event yielded different results in the two groups. In the high-performing groups, the ratio was 5.6/1, or almost 6 positive to one negative event. The medium-scoring groups — the ratio was 1.9/1. In the low-scoring groups, the ratio of positive to negative events was 0.36/1.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="article-card">
+                        <a href="https://medium.com/data-science/understanding-llms-from-scratch-using-middle-school-math-e602d27ec876" target="_blank">
+                            <h4>Understanding LLMs from Scratch Using Middle School Math</h4>
+                            <div class="article-meta">Oct 20, 2024</div>
+                            <p>
+                                In this article, we talk about how Large Language Models (LLMs) work, from scratch — assuming only that you know how to add and multiply two numbers. The article is meant to be fully self-contained. We start by building a simple Generative AI on pen and paper, and then walk through everything we need to have a firm understanding of modern LLMs and the Transformer architecture. 
+                            </p>
+                        </a>
+                    </div>
+                    <div class="article-card">
+                        <a href="https://medium.com/science-spectrum/did-futurama-prove-a-new-math-theorem-d5de39a75808" target="_blank">
+                            <h4>Did Futurama Prove a New Math Theorem?</h4>
+                            <div class="article-meta">Nov 12, 2024</div>
+                            <p>
+                                Futurama is an all-time classic in the genre of adult cartoons. This hilarious science-fiction show is set in the year 2999 and takes advantage of the various aliens and robotic characters for hilarious comedy. 
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+             <div class="container">
+                 <h2>Hubungi Kami</h2>
+                 <p>Punya pertanyaan, saran, atau ingin bergabung? Jangan ragu untuk menghubungi kami.</p>
+                 <div class="contact-info">
+                     <p><i class="fas fa-envelope"></i> Email: <a href="mailto:humas@himatika-uinsgd.ac.id">humas@himatika-uinsgd.ac.id</a></p>
+                     <p><i class="fas fa-map-marker-alt"></i> Universitas Islam Negeri Sunan Gunung Djati bandung</p>
+                     <!-- Tambahkan info kontak lain jika perlu (misal: media sosial) -->
+                     <div class="social-media">
+                        <a href="https://www.instagram.com/himatikauinsgd/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/@himatika_uinsgd" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/@himatikauinbandungofficial797" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+                     </div>
+                 </div>
+             </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <p>&copy; 2025 HIMATIKA UIN SGD BANDUNG.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script/script.js"></script>
+</body>
+</html>
