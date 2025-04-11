@@ -2,12 +2,11 @@ HIMATIKA/
 ├── index.html
 ├── style.css
 ├── script.js
-├── images/
-│   └── hero-background.jpg  (Contoh gambar background)
-│   └── logo.png             (Jika ada logo)
+├── assets/
+│   └── hima.png            
 └── files/                   (Folder untuk menyimpan file kuliah)
     └── kalkulus1/
     │   └── catatan-bab1.pdf
-    │   └── latihan-soal-uts.docx
+    │   └── latihan-soal-uas.pdf
     └── aljabar-linear/
-        └── slide-pertemuan-5.pptx
+        └── elemen-vektor.pdf
