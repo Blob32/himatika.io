@@ -10,6 +10,7 @@
     --darkr: #3B0606;
     --pr: #811919;
     --sec: #F59116;
+    --txt: #222222;
 }
 html {
     scroll-behavior: smooth; /* Efek scroll halus */
@@ -26,7 +27,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     margin-bottom: 0.8rem;
-    color: #0A2342; /* Biru tua untuk heading */
+    color: var(--txt); /* Biru tua untuk heading */
 }
 
 h1 { font-size: 2.8rem; }
@@ -163,7 +164,7 @@ img {
 .cta-button {
     display: inline-block;
     background-color: var(--sec); /* Warna emas */
-    color: #0A2342; /* Teks biru tua */
+    color: #3B0606; /* Teks biru tua */
     padding: 12px 25px;
     border-radius: 5px;
     font-weight: 600;
@@ -172,7 +173,7 @@ img {
 
 .cta-button:hover {
     background-color: #e0a800; /* Emas lebih gelap */
-    color: #0A2342;
+    color: #3B0606;
     transform: translateY(-2px); /* Efek angkat sedikit */
 }
 
@@ -284,10 +285,10 @@ section:nth-child(even) { /* Warna latar selang-seling */
 }
 
 .file-category h3 {
-    border-bottom: 2px solid #0A2342;
+    border-bottom: 2px solid #3B0606;
     padding-bottom: 0.5rem;
     margin-bottom: 1.5rem;
-    color: #0A2342;
+    color: #3B0606;
 }
 
 .file-card {
@@ -349,7 +350,7 @@ section:nth-child(even) { /* Warna latar selang-seling */
 }
 .contact-info i {
     margin-right: 10px;
-    color: #0A2342;
+    color: #3B0606;
     width: 20px; /* Lebar ikon konsisten */
     text-align: center;
 }
@@ -364,7 +365,7 @@ section:nth-child(even) { /* Warna latar selang-seling */
     margin-top: 1.5rem;
 }
 .social-media a {
-    color: #0A2342;
+    color: #3B0606;
     font-size: 1.8rem;
     margin: 0 10px;
     transition: color 0.3s ease, transform 0.3s ease;

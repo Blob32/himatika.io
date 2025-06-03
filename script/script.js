@@ -65,15 +65,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // Panggil sekali saat load untuk highlight link awal
     highlightNavLink();
 
-    // (Opsional) Ubah background header saat scroll
-    // window.addEventListener('scroll', () => {
-    //     if (window.scrollY > 50) {
-    //         header.style.backgroundColor = 'rgba(10, 35, 66, 0.9)'; // Background sedikit transparan
-    //         header.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.15)';
-    //     } else {
-    //         header.style.backgroundColor = '#0A2342'; // Kembali solid
-    //         header.style.boxShadow = '0 2px 5px rgba(0, 0, 0, 0.1)';
-    //     }
-    // });
+    // Ubah background header saat scroll
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            header.style.backgroundColor = 'rgba(66, 10, 10, 0.77)'; // Background sedikit transparan
+            header.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.15)';
+        } else {
+            header.style.backgroundColor = '#3B0606'; // Kembali solid
+            header.style.boxShadow = '0 2px 5px rgba(0, 0, 0, 0.1)';
+        }
+    });
 
 });
